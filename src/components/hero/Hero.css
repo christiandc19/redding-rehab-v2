@@ -38,6 +38,7 @@
 
   .hero-flex .hero-flexItem1 {
     border-radius:  25px 0 0 25px;
+    border-right: solid .5px #eff3f39d;
   }
 
   .hero-flex h1 {
@@ -190,6 +191,8 @@
   
     .hero-flex .hero-flexItem1 {
       border-radius:  25px 25px 0 0;
+      border-bottom: solid .5px #005f599d;
+      border-right: none;
     }
 
     #content {

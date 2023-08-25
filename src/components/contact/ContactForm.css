@@ -6,6 +6,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  padding: 3rem 0;
 }
 
 .contact-container:before {
@@ -89,7 +90,7 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-  background-color: rgb(212, 42, 212);
+  background-color: rgb(221, 159, 24);
   border-color: var(--secondary-color);
   color: #fff;
 }

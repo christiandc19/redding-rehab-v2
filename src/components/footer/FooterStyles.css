@@ -6,17 +6,7 @@
     height: auto;
     position: relative;
     background: var(--primary-color)
-    /* background: linear-gradient(0deg, rgba(154,34,195,0.8785889355742297) 0%, rgba(130,45,253,1) 100%);    padding: 3rem 0; */
 }
-
-/* .footer:before {
-    content:'';
-    position: absolute;
-    background: url('../../assets/footer-bg.jpg')no-repeat center center/cover;
-    height: 100%;
-    width: 100%;
-    z-index: -1;
-} */
 
 .footer .container {
     display: flex;
@@ -27,7 +17,7 @@
 }
 
 .logo-footer {
-    width: 200px;
+    width: 250px;
 }
 
 .logo-footer  img {
