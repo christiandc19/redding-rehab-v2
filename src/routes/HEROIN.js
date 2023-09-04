@@ -4,6 +4,7 @@ import Navbar from '../components/navbar/Navbar'
 import Footer from '../components/footer/Footer'
 import HEROIN from '../components/Addiction-Heroin/Heroin'
 import HeroinSection from '../components/Addiction-Heroin/HeroinSection'
+import Contact2 from '../components/contact/Contact2'
 
 
 const Heroin = () => {
@@ -11,7 +12,8 @@ const Heroin = () => {
     <>
     <Navbar /> 
     <HEROIN />
-    <HeroinSection />
+    <HeroinSection />    
+    <Contact2 />
     <Footer />
      </>
   )
