@@ -14,6 +14,7 @@
 }
 
 .top-flex-item {
+  width: 45%;
   display: flex;
   justify-content: center;
   gap: 1rem;
@@ -28,10 +29,15 @@
 
 .top-flex-icon {
   width: 200px;
+  margin: auto;
 }
 
 .top-flex-icon img{
   width: 100%;
+}
+
+.top-flex-text {
+  margin: auto;
 }
 
 .top-flex-text h1 {
@@ -66,6 +72,10 @@
 @media (max-width: 940px) {
   .top-flex {
     margin: 0 2rem;
+  }
+
+  .top-flex-item {
+    width: 90%;
   }
 }
 
