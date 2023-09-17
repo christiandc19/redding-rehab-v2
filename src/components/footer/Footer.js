@@ -34,7 +34,7 @@ const Footer = () => {
           </div>
           <div className="col-container">
             <div className="col">
-              <h3>My Account</h3>
+              <h3>Company</h3>
 
               <LinkRoll
                 activeClass="active"
@@ -67,8 +67,8 @@ const Footer = () => {
                 smooth={true}
                 duration={500}
               >
-                <Link to="/team">
-                  <p>Our Team</p>
+                <Link to="/treatment">
+                  <p>Treatment</p>
                 </Link>
               </LinkRoll>
 
