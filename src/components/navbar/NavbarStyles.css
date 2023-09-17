@@ -87,7 +87,7 @@
     background: white;
     border: 1px solid lavender;
     border-radius: 10px;
-    width: 240px;
+    width: auto;
     left: -17px;
     padding: 2px 0 0 0;
     margin-top: 6px;
@@ -149,23 +149,23 @@
         padding: .2rem 1rem;
       }
 
-      .sub__menus {
-        width: 250px;
-      }
-
       .navbar .navbar-container {
         justify-content: space-between;
       }
 
 }
 
-/* 
+
 @media screen and (max-width: 700px) {
-  .navbar-logo img {
-  width: 70%;
+
+  .sub__menus__arrows svg, .sub__menus__arrows__full svg {
+    display: none;
+  }
+
+
+  .navbar-logo {
+    width: 280px;
+  }
 }
-} */
-
-
 
 
