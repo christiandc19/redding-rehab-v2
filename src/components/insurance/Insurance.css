@@ -3,7 +3,7 @@
 
 .insurance {
     width: 100%;
-    height: 100vh;
+    height: 70vh;
     position: relative;
     margin-bottom: 1rem;
     display: flex;
@@ -25,7 +25,7 @@
     width: 100%;
     display: block;
     position: absolute;
-    top: 50%;
+    bottom: 15%;
     padding: 1rem;
 }
 
@@ -42,10 +42,6 @@
 
 @media screen and (max-width:940px) {
 
-.insurance h2 {
-    color: white;
-    font-size: 1.5rem;
-}
 
 .insurance h1 {
     font-size: 3rem;
